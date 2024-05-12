@@ -1,0 +1,17 @@
+.swiper-pagination-bullet-active {
+  background-color: rgb(183, 8, 183);
+}
+
+.swiper-pagination {
+  bottom: -8px !important;
+}
+
+.season {
+  width: fit-content !important;
+  height: 8vh;
+}
+
+/* .filmDetail .swiper-slide {
+  width: fit-content !important;
+  margin: 0 8px;
+} */
