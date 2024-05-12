@@ -1,0 +1,58 @@
+.swiper-button-next,
+.swiper-button-prev {
+  color: black;
+  outline: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 2rem 1.5rem 2rem 1.5rem;
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+@media (max-width: 560px) {
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 12px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+  }
+}
+
+.swiper-button-next:hover {
+  transition: 200ms ease-in-out;
+  color: rgba(198, 28, 123, 0.8);
+  transform: translateY(1px);
+}
+
+.swiper-button-prev:hover {
+  transition: 200ms ease-in-out;
+  color: rgba(198, 28, 123, 0.8);
+}
+
+.upcoming {
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding-left: 1.2rem;
+}
+
+.card {
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.section .swiper-button-next,
+.section .swiper-button-prev {
+  display: none !important;
+}
+
+.hero .swiper-button-next,
+.hero .swiper-button-prev {
+  display: none !important;
+}

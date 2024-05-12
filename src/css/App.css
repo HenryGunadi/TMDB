@@ -1,0 +1,8 @@
+.App {
+  position: relative;
+}
+
+.App .searchFocused {
+  opacity: 0.5;
+  filter: blur(4px);
+}
